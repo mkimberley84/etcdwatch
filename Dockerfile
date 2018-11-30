@@ -6,7 +6,7 @@ RUN         yum install -y etcd
 VOLUME      /data
 
 
-ENV         ETCDSERVER_IP   etcdserver_ip
+ENV         ETCDSERVER_IP   etcdserver_ip #not needed
 
 
 
